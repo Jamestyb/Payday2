@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header img{
+    width: 25px;
+    justify-content: start;
+    margin-right: 20px;
+}
+
+img{
+    border-radius: 8px;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(43, 43, 99);
+    padding: 20px;
+    color: #fff;
+}
+
+
+#aboutPayday2{
+    background-color: #031F44;
+    padding: 60px;
+    color: #ccc;
+}
+
+main button{
+    border: none;
+    padding: 15px 20px;
+    margin-left: 20px;
+    background-color: rgb(12, 12, 56);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+main button:hover{
+    background-color: rgb(26, 26, 104);
+}
+main h2{
+    text-align: center;
+    border-bottom: #fff solid 2px;
+    max-width: 260px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+
+
+#crimedotnetAbout{
+    background-color: #190860;
+    color: #fff;
+    padding: 60px;
+}
+
+#crimedotnetAbout h1{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    max-width: 80px;
+    text-align: center;
+}
+
+#bestWPS{
+    background-color: #172698;
+    padding: 55px;
+}
+
+#bestWPS h1{
+    border-bottom: 1px solid #ccc;
+    max-width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: #fff;
+}
+
+
+#CharactersBest{
+    background-color: #4C147E;
+    color: #ffff;
+    padding: 35px;
+}
+
+.criemdotnet-content img{
+    width: 360px;
+    border-radius: 8px;
+}
+
+.criemdotnet-content{
+    display: flex;
+}
+
+.criemdotnet-content p{
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.about_content{
+    display: flex;
+    margin-right: 45px;
+}
+.about_content img{
+    width: 220px;
+    border-radius: 20px;
+}
+
+.about_content p{
+    margin-left: 45px;
+    font-size: 22px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.owl-carousel .item img{
+    width: 300px;
+    height: 250px;
+    cursor: grab;
+}
+
+.item img{
+    position: relative;
+}
+
+.bg-items h3{
+    background-color: rgba(255, 71, 178, 0.39);
+    border-radius:8px;
+    padding: 2px;
+    position: absolute;
+    top: 115px;
+    left: 8px;
+}
+
+.bg-items p{
+    position: absolute;
+    max-width: 200px;
+    top: 150px;
+    left: 10px;
+    color: rgb(8, 128, 8);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.personagens-content{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
