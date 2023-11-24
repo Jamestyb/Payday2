@@ -9,6 +9,27 @@ header img{
     width: 25px;
     justify-content: start;
     margin-right: 20px;
+    
+}
+nav ul li a{
+    display: block;
+    border-bottom: 1px solid transparent;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    transition: all .4s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #0365e6;
+    border-bottom: 1px solid #ddd;
 }
 
 img{
@@ -64,11 +85,13 @@ main h2{
 }
 
 
+
 #crimedotnetAbout{
     background-color: #190860;
     color: #fff;
     padding: 60px;
 }
+
 
 #crimedotnetAbout h1{
     margin-bottom: 30px;
@@ -78,37 +101,68 @@ main h2{
 }
 
 #bestWPS{
-    background-color: #172698;
-    padding: 55px;
+    background-color: #031F44;
+    padding: 100px;
 }
 
+
+
 #bestWPS h1{
-    border-bottom: 1px solid #ccc;
-    max-width: 200px;
+    border-bottom: 2px solid #817b7b;
+    width: 50%;
     text-align: center;
-    margin: 20px auto;
+    margin: 0 auto 45px;
     color: #fff;
 }
 
 
 #CharactersBest{
-    background-color: #4C147E;
+    background-color: #172698;
     color: #ffff;
-    padding: 35px;
+    padding: 60px;
 }
 
-.criemdotnet-content img{
-    width: 360px;
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.a{
+    width:1500px;
+    height: 600px;
+    border-radius: 0;
+}
+.carousel-control-prev{
+    height: 20%;
+    top: 40%
+}
+.carousel-control-next{
+    height: 20%;
+    top: 40%
+}
+/* .criemdotnet-content img{
+    width: 300px;
     border-radius: 8px;
+} */
+
+.imgDotNet img{
+    position: relative;
+    width: 45%;
+    right: 100px;
+    top: 50px;
 }
 
 .criemdotnet-content{
     display: flex;
+    height: 420px;
 }
 
 .criemdotnet-content p{
-    margin-left: 25px;
-    font-size: 22px;
+    font-size: 20px;
+    width: 55%;
+    margin-left: 400px;
+    position: absolute;
 }
 
 .about_content{
@@ -124,11 +178,7 @@ main h2{
     margin-left: 45px;
     font-size: 22px;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .nav-title{
     display: flex;
     align-items: center;
@@ -138,7 +188,7 @@ nav{
 .nav{
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
 }
 
@@ -147,11 +197,7 @@ nav ul {
     list-style: none;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    margin-left: 20px;
-}
+
 
 
 .owl-carousel .item img{
@@ -172,6 +218,20 @@ nav ul li a{
     top: 115px;
     left: 8px;
 }
+.content-char{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+
+.content-char-desc{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.content-char-desc h1{
+    margin-bottom: 18px;
+}
 
 .bg-items p{
     position: absolute;
@@ -182,12 +242,33 @@ nav ul li a{
     font-size: 14px;
     font-weight: bold;
 }
+.btnsTab{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    padding: 22px 0;
+}
+.btnsChar {
+    border: transparent;
+    padding: 10px;
+    margin: 18px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    transition: all 1s;
+}
+
+.btnActive{
+    color: #ccc;
+    border-bottom: 2px solid #fff;
+}
 
 .personagens-content{
     display: none;
+    transition: all 5s;
 }
 
 .active{
     display: block;
 }
-
